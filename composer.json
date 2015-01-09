@@ -1,0 +1,31 @@
+{
+    "name": "scoreya/cinderella-sdk",
+    "license": "MIT",
+    "type": "library",
+    "keywords": ["sdk", "cinderella"],
+    "authors": [
+        {
+            "name": "Alexander Miehe",
+            "email": "thelex@beamscore.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ScoreYa\\Cinderella\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ScoreYa\\Cinderella\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/score-ya/cinderella-sdk/issues"
+    }
+}
