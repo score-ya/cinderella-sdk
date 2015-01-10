@@ -12,6 +12,12 @@ class Fetch extends OperationCommand
 {
     private $templateVariables;
 
+    /**
+     * remove the template name from the parameters
+     *
+     * @param array              $parameters
+     * @param OperationInterface $operation
+     */
     public function __construct($parameters = array(), OperationInterface $operation = null)
     {
         parent::__construct($parameters, $operation);
@@ -19,6 +25,11 @@ class Fetch extends OperationCommand
         unset($this->templateVariables['name']);
     }
 
+    /**
+     * add the template variables to the query part
+     *
+     * @return \Guzzle\Http\Message\RequestInterface
+     */
     public function prepare()
     {
         $request = parent::prepare();
@@ -32,6 +43,9 @@ class Fetch extends OperationCommand
         return $request;
     }
 
+    /**
+     * always return as result the body of the response
+     */
     protected function process()
     {
         $this->result = $this->getResponse()->getBody(true);

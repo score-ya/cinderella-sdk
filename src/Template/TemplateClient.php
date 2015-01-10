@@ -5,12 +5,23 @@ namespace ScoreYa\Cinderella\Template;
 use Guzzle\Common\Collection;
 use Guzzle\Service\Client;
 use Guzzle\Service\Description\ServiceDescription;
+use ScoreYa\Cinderella\Common\Service\ApiKeyClientInterface;
 
 /**
  * @author Alexander Miehe <thelex@beamscore.com>
+ *
+ * @codeCoverageIgnore Test is not need because the command tests only work if this client works.
  */
-class TemplateClient extends Client
+class TemplateClient extends Client implements ApiKeyClientInterface
 {
+    /**
+     * @param string $apiKey
+     */
+    public function setApiKey($apiKey)
+    {
+        $this->setDefaultOption('query/apikey', $apiKey);
+    }
+
     /**
      * @param array $config
      *

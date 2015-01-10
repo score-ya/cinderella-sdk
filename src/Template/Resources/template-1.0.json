@@ -3,7 +3,6 @@
   "apiVersion": "1.0",
   "baseUrl": "http://cinderella.dev/api/template",
   "description": "template api returns for given ",
-
   "operations": {
     "fetch" : {
       "class" : "ScoreYa\\Cinderella\\Template\\Command\\Fetch",

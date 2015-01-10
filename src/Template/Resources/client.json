@@ -1,14 +1,7 @@
 {
   "services": {
     "template": {
-      "class": "ScoreYa\\Cinderella\\Template\\TemplateClient",
-      "params" : {
-        "request.options" : {
-          "query" : {
-            "apikey": ""
-          }
-        }
-      }
+      "class": "ScoreYa\\Cinderella\\Template\\TemplateClient"
     }
   }
 }
