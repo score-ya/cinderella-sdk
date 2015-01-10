@@ -15,8 +15,8 @@ class Fetch extends OperationCommand
     /**
      * remove the template name from the parameters
      *
-     * @param array              $parameters
-     * @param OperationInterface $operation
+     * @param array                   $parameters
+     * @param null|OperationInterface $operation
      */
     public function __construct($parameters = array(), OperationInterface $operation = null)
     {

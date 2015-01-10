@@ -21,7 +21,7 @@ class ServiceBuilderLoader extends BaseServiceBuilderLoader
      */
     protected function mergeData(array $a, array $b)
     {
-        if (!isset($b['services'])) {
+        if (isset($b['services']) === false) {
             return $b + $a;
         }
 
