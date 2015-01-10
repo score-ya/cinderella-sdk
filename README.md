@@ -11,3 +11,5 @@ License
 -------
 
 All contents of this package are licensed under the [MIT license].
+
+[MIT license]: LICENSE
