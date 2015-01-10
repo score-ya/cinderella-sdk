@@ -1,5 +1,6 @@
 {
     "name": "scoreya/cinderella-sdk",
+    "description" : "",
     "license": "MIT",
     "type": "library",
     "keywords": ["sdk", "cinderella"],
@@ -27,5 +28,8 @@
     },
     "support": {
         "issues": "https://github.com/score-ya/cinderella-sdk/issues"
+    },
+    "require": {
+        "guzzle/guzzle": "3.9.2"
     }
 }
