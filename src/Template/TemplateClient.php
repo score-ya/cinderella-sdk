@@ -1,11 +1,11 @@
 <?php
 
-namespace ScoreYa\Cinderella\Template;
+namespace ScoreYa\Cinderella\SDK\Template;
 
 use Guzzle\Common\Collection;
 use Guzzle\Service\Client;
 use Guzzle\Service\Description\ServiceDescription;
-use ScoreYa\Cinderella\Common\Service\ApiKeyClientInterface;
+use ScoreYa\Cinderella\SDK\Common\Service\ApiKeyClientInterface;
 
 /**
  * @author Alexander Miehe <thelex@beamscore.com>

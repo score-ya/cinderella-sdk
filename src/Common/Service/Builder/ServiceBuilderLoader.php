@@ -1,6 +1,6 @@
 <?php
 
-namespace ScoreYa\Cinderella\Common\Service\Builder;
+namespace ScoreYa\Cinderella\SDK\Common\Service\Builder;
 
 use Guzzle\Service\Builder\ServiceBuilderLoader as BaseServiceBuilderLoader;
 

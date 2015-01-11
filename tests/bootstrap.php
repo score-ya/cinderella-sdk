@@ -4,6 +4,6 @@
  */
 require dirname(__DIR__).'/vendor/autoload.php';
 
-$serviceBuilder = \ScoreYa\Cinderella\Common\ClientBuilder::build('test_api_key');
+$serviceBuilder = \ScoreYa\Cinderella\SDK\Common\ClientBuilder::build('test_api_key');
 
 \Guzzle\Tests\GuzzleTestCase::setServiceBuilder($serviceBuilder);

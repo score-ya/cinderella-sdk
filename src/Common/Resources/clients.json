@@ -1,4 +1,4 @@
 {
   "includes": ["../../Template/Resources/client.json"],
-  "class" : "ScoreYa\\Cinderella\\Common\\ClientBuilder"
+  "class" : "ScoreYa\\Cinderella\\SDK\\Common\\ClientBuilder"
 }

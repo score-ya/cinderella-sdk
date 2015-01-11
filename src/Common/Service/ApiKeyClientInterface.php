@@ -1,6 +1,6 @@
 <?php
 
-namespace ScoreYa\Cinderella\Common\Service;
+namespace ScoreYa\Cinderella\SDK\Common\Service;
 
 /**
  * @author Alexander Miehe <thelex@beamscore.com>

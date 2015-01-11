@@ -1,6 +1,6 @@
 <?php
 
-namespace ScoreYa\Cinderella\Template\Command;
+namespace ScoreYa\Cinderella\SDK\Template\Command;
 
 use Guzzle\Service\Command\OperationCommand;
 use Guzzle\Service\Description\OperationInterface;

@@ -13,12 +13,12 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "ScoreYa\\Cinderella\\": "src/"
+            "ScoreYa\\Cinderella\\SDK\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ScoreYa\\Cinderella\\Tests\\": "tests/"
+            "ScoreYa\\Cinderella\\SDK\\Tests\\": "tests/"
         }
     },
     "extra": {

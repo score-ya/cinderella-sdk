@@ -1,15 +1,15 @@
 <?php
 
-namespace ScoreYa\Cinderella\Tests\Template\Command;
+namespace ScoreYa\Cinderella\SDK\Tests\Template\Command;
 
 use Guzzle\Http\Message\Response;
 use Guzzle\Tests\GuzzleTestCase;
-use ScoreYa\Cinderella\Template\TemplateClient;
+use ScoreYa\Cinderella\SDK\Template\TemplateClient;
 
 /**
  * @author Alexander Miehe <thelex@beamscore.com>
  *
- * @covers ScoreYa\Cinderella\Template\Command\Fetch
+ * @covers ScoreYa\Cinderella\SDK\Template\Command\Fetch
  */
 class FetchTest extends GuzzleTestCase
 {

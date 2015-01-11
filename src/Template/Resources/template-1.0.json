@@ -5,7 +5,7 @@
   "description": "template api returns for given ",
   "operations": {
     "fetch" : {
-      "class" : "ScoreYa\\Cinderella\\Template\\Command\\Fetch",
+      "class" : "ScoreYa\\Cinderella\\SDK\\Template\\Command\\Fetch",
       "httpMethod" : "GET",
       "uri" : "{name}",
       "parameters": {

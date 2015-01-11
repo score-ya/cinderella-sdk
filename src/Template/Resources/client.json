@@ -1,7 +1,7 @@
 {
   "services": {
     "template": {
-      "class": "ScoreYa\\Cinderella\\Template\\TemplateClient"
+      "class": "ScoreYa\\Cinderella\\SDK\\Template\\TemplateClient"
     }
   }
 }
