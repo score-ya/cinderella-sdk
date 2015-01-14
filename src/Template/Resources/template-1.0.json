@@ -1,17 +1,22 @@
 {
   "name": "template client",
   "apiVersion": "1.0",
-  "baseUrl": "http://cinderella.dev/api/template",
+  "baseUrl": "http://cinderella.dev",
   "description": "template api returns for given ",
   "operations": {
     "fetch" : {
       "class" : "ScoreYa\\Cinderella\\SDK\\Template\\Command\\Fetch",
       "httpMethod" : "GET",
-      "uri" : "{name}",
+      "uri" : "api/template/{name}.{format}",
       "parameters": {
         "name": {
           "location": "uri",
-          "required": "true"
+          "required": true
+        },
+        "format": {
+          "location": "uri",
+          "required": true,
+          "default": "html"
         }
       },
       "responseType" : "string"

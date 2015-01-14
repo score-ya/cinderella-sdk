@@ -10,7 +10,9 @@ use Guzzle\Service\Description\OperationInterface;
  */
 class Fetch extends OperationCommand
 {
-    private $templateVariables;
+    const TEMPLATE_VARIABLES = 'template.variables';
+
+    private $templateVariables = array();
 
     /**
      * remove the template name from the parameters
@@ -21,8 +23,9 @@ class Fetch extends OperationCommand
     public function __construct($parameters = array(), OperationInterface $operation = null)
     {
         parent::__construct($parameters, $operation);
-        $this->templateVariables = $parameters;
-        unset($this->templateVariables['name']);
+        if (isset($parameters[self::TEMPLATE_VARIABLES]) === true) {
+            $this->templateVariables = $parameters[self::TEMPLATE_VARIABLES];
+        }
     }
 
     /**
